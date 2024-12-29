@@ -8,9 +8,9 @@ services:
     volumes:
       - ./:/app
     environment:
-      MYSQL_HOST: mysql
-      MYSQL_USER: root
-      MYSQL_PASSWORD: secret
+      MYSQL_HOST: todo-db.ct0ei4a004od.ap-southeast-2.rds.amazonaws.com
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin12345
       MYSQL_DB: todos
 
   mysql:
